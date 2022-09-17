@@ -2,6 +2,11 @@
 I made this bot in January and was too lazy to continue working on it. It's better to work on discord bots with JavaScript.
 
 # Usage
+First of all, make sure to install dotenv, discord.ext and discord.utils:
+```bash
+pip install dotenv, discord.ext and discord.utils
+```
+
 On line 54 you can change the channel id:
 ```python
 channel = bot.get_channel(896077052250296360)
